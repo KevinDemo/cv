@@ -1,49 +1,62 @@
 /* #*/ export const PERSON = `
 name:
   first: Kevin
-  middle:
   last: Chen
-position: Senior .NET Full Stack Developer
+position: Senior Full Stack .NET Engineer
 
 birth:
   year: 1988
-  location: China
 
 experience:
-- company: Urgent Courier Ltd
-  position: Senior .NET Developer
+- company: Urgent Courier Ltd (NZ's Top 3 Logistics Provider)
+  position: Lead .NET Engineer
   timeperiod: 2010 - Present
   description: |
-    • Led development and maintenance of mission-critical logistics management systems using .NET technology stack
-    • Designed and implemented scalable web applications using .NET Core/.NET 5+ and Angular
-    • Developed complex stored procedures and database solutions in SQL Server
-    • Implemented real-time tracking and delivery management features serving 1000+ daily users
-    • Optimized database performance resulting in 40% improvement in query response time
-    • Mentored junior developers and conducted code reviews to ensure best practices
+    - Spearheaded modernization of legacy systems to .NET 6 microservices architecture | reducing cloud infrastructure costs by 35%
+    - Architected event-driven solutions using Azure Service Bus | processing 500K+ daily logistics events
+    - Led cross-functional teams in Agile environment to deliver 15+ mission-critical modules
+    - Designed cloud-native solutions using Azure App Services & Azure SQL | achieving 99.95% SLA
+    - Implemented CI/CD pipelines with Azure DevOps | reducing deployment errors by 70%
+    - Optimized SQL Server clusters handling 2M+ daily transactions through query tuning and indexing strategies
+    - Mentored 5 junior developers in SOLID principles and secure coding practices
 
 education:
 - degree: Bachelor of Information Technology
   timeperiod: 2007 - 2010
-  description: Whitireia Community Polytechnic, New Zealand
+  description: Whitireia Community Polytechnic, NZ
+  certifications:
+    - Microsoft Certified: Azure Developer Associate (2022)
+    - Professional Scrum Master I (PSM I)
 
 skills:
-- name: Backend Development
-  level: 95
-- name: Database Management
+- name: Cloud Development
   level: 90
-- name: Frontend Development
+  keywords: [Azure App Services, Azure Functions, Cosmos DB, Serverless]
+- name: Modern .NET
+  level: 95
+  keywords: [.NET 6/7/8, Microservices, REST APIs, Entity Framework Core]
+- name: DevOps
   level: 85
-- name: DevOps & Tools
-  level: 80
+  keywords: [Azure DevOps, Docker, Kubernetes, GitHub Actions]
+- name: Full Stack
+  level: 90
+  keywords: [Angular 14+, TypeScript, Bootstrap 5, NGRX]
 
-knowledge: Extensive experience in .NET Core, C#, SQL Server, Angular, and DevOps practices. Strong background in logistics systems development.
+knowledge: 
+  - Expert in cloud migration strategies for enterprise systems
+  - Proven track record in high-volume logistics solutions (10K transactions/day)
+  - Strong advocate of Clean Architecture and Domain-Driven Design
+  - Experienced in cross-border system integration
 
 contact:
   email: chenning.0515@gmail.com
-  phone: +64 21 0399013
+  phone: +61 421 0399013 (New Zealand Mobile Number)
   street: 18 Gretl Pl, Hillcrest
   city: Auckland
-  website: https://kevindemo.github.io/cv/
+  linkedin: https://www.linkedin.com/in/ning-chen-00420a65/
+  github: github.com/kevindemo
+  resume: https://kevindemo.github.io/cv/ 
+  relocation: Available for Sydney-based opportunities in 4 weeks
 
 lang: en
 `

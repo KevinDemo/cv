@@ -52,7 +52,7 @@ const convert = async () => {
     console.log('Connected to server ...');
     console.log('Exporting ...');
     try {
-        const fullDirectoryPath = path.join(__dirname, '../pdf/');
+        const fullDirectoryPath = path.join(__dirname, '../docs/');
         const directories = getResumesFromDirectories();
         directories.forEach(async (dir) => {
             const browser = await puppeteer.launch({

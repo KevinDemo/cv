@@ -13,7 +13,7 @@
       </div>
       <div class="text">
         <ul>
-          <li> {{ lang.born }} {{person.birth.year}} {{ lang.bornIn }} {{person.birth.location}}</li>
+          <li> {{ lang.born }} {{person.birth.year}} </li>
         </ul>
       </div>
     </div>
@@ -322,7 +322,9 @@ h4 {
       font-size:14px;
       color:rgba(0,0,0,0.870588);
       margin-bottom:0;
-      padding-top:20px;
+      padding-top:0;
+      white-space: pre-line;  /* 保留换行符 */
+      line-break: anywhere;   /* 允许任意位置换行 */
     }
     .icon {
       width:16%;

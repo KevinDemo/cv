@@ -13,6 +13,8 @@ export const PERSON = {
       description: `
 • Architected event-driven microservices platform on Azure Service Bus processing 500K+ daily logistics events with 99.95% SLA — zero critical incidents in 3 years
 • Migrated monolithic .NET Framework codebase to .NET 8 microservices, cutting cloud infrastructure costs by 35% and release cycles from 3 weeks to 2 days
+• Delivered full-stack solutions using Angular frontend and C# ASP.NET Core MVC backend across multiple business-critical applications
+• Managed AWS-hosted production environments; built and maintained GitLab CI/CD pipelines for automated testing, build and deployment workflows
 • Optimised SQL Server clusters handling 2M+ daily transactions via query tuning, indexing and execution plan analysis — reduced average query time by 40%
 • Delivered 15+ mission-critical modules across Agile squads; led architecture decisions, sprint planning and stakeholder demos
 • Built and maintained Azure DevOps CI/CD pipelines across 8 services, cutting deployment errors by 70% and enabling daily production deployments
@@ -45,9 +47,9 @@ export const PERSON = {
       keywords: ['C#', '.NET 6/7/8', 'ASP.NET Core', 'Web API', 'Microservices', 'Clean Architecture', 'DDD', 'SOLID', 'CQRS', 'gRPC']
     },
     {
-      name: 'Azure & Cloud',
+      name: 'Cloud & Infrastructure',
       level: '92',
-      keywords: ['Azure App Services', 'Azure Service Bus', 'Azure SQL', 'Azure Functions', 'AKS', 'App Gateway', 'Azure DevOps']
+      keywords: ['AWS', 'Azure App Services', 'Azure Service Bus', 'Azure SQL', 'Azure Functions', 'AKS', 'Azure DevOps']
     },
     {
       name: 'Data & Messaging',
@@ -57,12 +59,12 @@ export const PERSON = {
     {
       name: 'DevOps & Tooling',
       level: '85',
-      keywords: ['Docker', 'Kubernetes', 'Azure DevOps', 'GitHub Actions', 'CI/CD', 'Terraform', 'Octopus Deploy']
+      keywords: ['Docker', 'Kubernetes', 'GitLab CI/CD', 'Azure DevOps', 'GitHub Actions', 'Terraform', 'Octopus Deploy']
     },
     {
       name: 'Frontend',
-      level: '75',
-      keywords: ['Angular 14+', 'TypeScript', 'React (basics)', 'Bootstrap 5', 'NGRX', 'Swagger/OpenAPI']
+      level: '80',
+      keywords: ['Angular 14+', 'TypeScript', 'ASP.NET Core MVC', 'React (basics)', 'Bootstrap 5', 'NGRX', 'Swagger/OpenAPI']
     }
   ],
   languages: [

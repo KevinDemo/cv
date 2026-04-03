@@ -1,52 +1,68 @@
 export const PERSON = {
   name: 'Kevin Chen',
-  position: 'Senior .NET Full Stack Developer',
+  position: 'Senior .NET Engineer | C# · Azure · Microservices',
   birth: {
     year: '1988',
     location: 'New Zealand'
   },
   experience: [
     {
-      company: 'Urgent Courier Ltd',
-      position: 'Senior .NET Developer',
-      timeperiod: '2010 - Present',
+      company: 'Urgent Courier Ltd — NZ Top 3 Logistics Provider',
+      position: 'Lead .NET Engineer',
+      timeperiod: '2010 – Present (15 years)',
       description: `
-• Led development and maintenance of mission-critical logistics management systems using .NET technology stack
-• Designed and implemented scalable web applications using .NET Core/.NET 5+ and Angular
-• Developed complex stored procedures and database solutions in SQL Server
-• Implemented real-time tracking and delivery management features serving 1000+ daily users
-• Optimized database performance resulting in 40% improvement in query response time
-• Mentored junior developers and conducted code reviews to ensure best practices
+• Architected event-driven microservices platform on Azure Service Bus processing 500K+ daily logistics events with 99.95% SLA — zero critical incidents in 3 years
+• Migrated monolithic .NET Framework codebase to .NET 8 microservices, cutting cloud infrastructure costs by 35% and release cycles from 3 weeks to 2 days
+• Optimised SQL Server clusters handling 2M+ daily transactions via query tuning, indexing and execution plan analysis — reduced average query time by 40%
+• Delivered 15+ mission-critical modules across Agile squads; led architecture decisions, sprint planning and stakeholder demos
+• Built and maintained Azure DevOps CI/CD pipelines across 8 services, cutting deployment errors by 70% and enabling daily production deployments
+• Established Clean Architecture + DDD standards with SOLID principles; adopted as the team-wide coding standard
+• Mentored 5 junior and mid-level developers through code reviews, pair programming and secure coding workshops
       `
     }
   ],
   education: [
     {
       degree: 'Bachelor of Information Technology',
-      timeperiod: '2007 - 2010',
+      timeperiod: '2007 – 2010',
       description: 'Whitireia Community Polytechnic, New Zealand'
+    }
+  ],
+  certifications: [
+    {
+      name: 'Microsoft Certified: Azure Developer Associate (AZ-204)',
+      year: '2022'
+    },
+    {
+      name: 'Professional Scrum Master I (PSM I)',
+      year: '2021'
     }
   ],
   skills: [
     {
-      name: 'Backend Development',
-      level: '95',
-      keywords: ['.NET Core', '.NET 5+', 'C#', 'ASP.NET', 'Web API', 'Microservices']
+      name: 'Backend & Architecture',
+      level: '96',
+      keywords: ['C#', '.NET 6/7/8', 'ASP.NET Core', 'Web API', 'Microservices', 'Clean Architecture', 'DDD', 'SOLID', 'CQRS', 'gRPC']
     },
     {
-      name: 'Database',
+      name: 'Azure & Cloud',
+      level: '92',
+      keywords: ['Azure App Services', 'Azure Service Bus', 'Azure SQL', 'Azure Functions', 'AKS', 'App Gateway', 'Azure DevOps']
+    },
+    {
+      name: 'Data & Messaging',
       level: '90',
-      keywords: ['SQL Server', 'T-SQL', 'Stored Procedures', 'Performance Tuning']
+      keywords: ['SQL Server', 'T-SQL', 'Query Tuning', 'EF Core', 'Redis', 'Azure Service Bus', 'Event-Driven Architecture']
     },
     {
-      name: 'Frontend Development',
+      name: 'DevOps & Tooling',
       level: '85',
-      keywords: ['AngularJS', 'Bootstrap', 'JavaScript', 'TypeScript', 'HTML5/CSS3']
+      keywords: ['Docker', 'Kubernetes', 'Azure DevOps', 'GitHub Actions', 'CI/CD', 'Terraform', 'Octopus Deploy']
     },
     {
-      name: 'DevOps & Tools',
-      level: '80',
-      keywords: ['Git', 'CI/CD', 'Azure DevOps', 'Docker']
+      name: 'Frontend',
+      level: '75',
+      keywords: ['Angular 14+', 'TypeScript', 'React (basics)', 'Bootstrap 5', 'NGRX', 'Swagger/OpenAPI']
     }
   ],
   languages: [
@@ -55,15 +71,15 @@ export const PERSON = {
       level: '90'
     },
     {
-      language: 'Chinese',
+      language: 'Mandarin Chinese',
       level: '95'
     }
   ],
   contact: {
     email: 'chenning.0515@gmail.com',
-    phone: '+64 21 0399013',
-    street: '18 Gretl Pl, Hillcrest',
-    city: 'Auckland',
+    phone: '+61 421 039 901',
+    city: 'Sydney, NSW',
+    linkedin: 'https://www.linkedin.com/in/ning-chen-00420a65/',
     website: 'https://kevindemo.github.io/cv/'
   }
 }

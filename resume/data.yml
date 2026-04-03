@@ -2,61 +2,66 @@
 name:
   first: Kevin
   last: Chen
-position: Senior Full Stack .NET Engineer
+position: Senior .NET Engineer | C# · Azure · Microservices
 
 birth:
   year: 1988
 
 experience:
-- company: Urgent Courier Ltd (NZ's Top 3 Logistics Provider)
+- company: Urgent Courier Ltd — NZ Top 3 Logistics Provider
   position: Lead .NET Engineer
-  timeperiod: 2010 - Present
+  timeperiod: 2010 – Present (15 years)
   description: |
-    - Spearheaded modernization of legacy systems to .NET 6 microservices architecture | reducing cloud infrastructure costs by 35%
-    - Architected event-driven solutions using Azure Service Bus | processing 500K+ daily logistics events
-    - Led cross-functional teams in Agile environment to deliver 15+ mission-critical modules
-    - Designed cloud-native solutions using Azure App Services & Azure SQL | achieving 99.95% SLA
-    - Implemented CI/CD pipelines with Azure DevOps | reducing deployment errors by 70%
-    - Optimized SQL Server clusters handling 2M+ daily transactions through query tuning and indexing strategies
-    - Mentored 5 junior developers in SOLID principles and secure coding practices
+    - Architected event-driven microservices platform on Azure Service Bus processing 500K+ daily logistics events with 99.95% SLA — zero critical incidents in 3 years
+    - Migrated monolithic .NET Framework codebase to .NET 8 microservices, reducing cloud infrastructure costs by 35% and cutting release cycles from 3 weeks to 2 days
+    - Optimised SQL Server clusters handling 2M+ daily transactions via query tuning, indexing strategies and execution plan analysis — reduced average query time by 40%
+    - Delivered 15+ mission-critical modules across Agile squads; led architecture decisions, sprint planning and stakeholder demos
+    - Built and maintained Azure DevOps CI/CD pipelines across 8 services, cutting deployment errors by 70% and enabling daily production deployments
+    - Designed Clean Architecture + DDD solutions with SOLID principles; established coding standards adopted across the engineering team
+    - Mentored 5 junior and mid-level developers through code reviews, pair programming and SOLID/secure coding workshops
 
 education:
 - degree: Bachelor of Information Technology
-  timeperiod: 2007 - 2010
-  description: Whitireia Community Polytechnic, NZ
-  certifications:
-    - Microsoft Certified: Azure Developer Associate (2022)
-    - Professional Scrum Master I (PSM I)
+  timeperiod: 2007 – 2010
+  description: Whitireia Community Polytechnic, New Zealand
+
+certifications:
+- name: Microsoft Certified — Azure Developer Associate (AZ-204)
+  year: 2022
+- name: Professional Scrum Master I (PSM I)
+  year: 2021
 
 skills:
-- name: Cloud Development
+- name: Backend & Architecture
+  level: 96
+  keywords: [C#, .NET 6/7/8, ASP.NET Core, Web API, Microservices, Clean Architecture, DDD, SOLID, CQRS, gRPC]
+- name: Azure & Cloud
+  level: 92
+  keywords: [Azure App Services, Azure Service Bus, Azure SQL, Azure Functions, App Gateway, AKS, Azure DevOps]
+- name: Data & Messaging
   level: 90
-  keywords: [Azure App Services, Azure Functions, Cosmos DB, Serverless]
-- name: Modern .NET
-  level: 95
-  keywords: [.NET 6/7/8, Microservices, REST APIs, Entity Framework Core]
-- name: DevOps
+  keywords: [SQL Server, T-SQL, Query Tuning, Indexing, EF Core, Redis, Azure Service Bus, Event-Driven Architecture]
+- name: DevOps & Tooling
   level: 85
-  keywords: [Azure DevOps, Docker, Kubernetes, GitHub Actions]
-- name: Full Stack
-  level: 90
-  keywords: [Angular 14+, TypeScript, Bootstrap 5, NGRX]
+  keywords: [Docker, Kubernetes, Azure DevOps, GitHub Actions, CI/CD, Terraform, Octopus Deploy]
+- name: Frontend
+  level: 75
+  keywords: [Angular 14+, TypeScript, React (basics), Bootstrap 5, NGRX, REST, Swagger/OpenAPI]
 
-knowledge: 
-  - Expert in cloud migration strategies for enterprise systems
-  - Proven track record in high-volume logistics solutions (10K transactions/day)
-  - Strong advocate of Clean Architecture and Domain-Driven Design
-  - Experienced in cross-border system integration
+knowledge:
+  - NZ citizen — full Australian work rights, no sponsorship required
+  - Available immediately for Sydney-based hybrid or on-site roles
+  - Proven in high-volume, high-availability logistics and transaction systems
+  - Strong advocate of Clean Architecture, Domain-Driven Design and Test-Driven Development
+  - Experienced technical lead — architecture, mentoring, Agile delivery and stakeholder communication
 
 contact:
   email: chenning.0515@gmail.com
-  phone: +61 421 0399013 (New Zealand Mobile Number)
-  street: 18 Gretl Pl, Hillcrest
-  city: Auckland
+  phone: +61 421 039 901
+  city: Sydney, NSW (recently relocated)
   linkedin: https://www.linkedin.com/in/ning-chen-00420a65/
   github: github.com/kevindemo
-  resume: https://kevindemo.github.io/cv/ 
-  relocation: Available for Sydney-based opportunities in 4 weeks
+  resume: https://kevindemo.github.io/cv/
 
 lang: en
 `

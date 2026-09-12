@@ -74,7 +74,7 @@ export const PERSON = {
     email: 'chenning.0515@gmail.com',
     phone: '+61 432 993 895',
     city: 'Sydney, NSW',
-    linkedin: 'https://www.linkedin.com/in/ning-chen-00420a65/',
+    linkedin: 'ning-chen-00420a65',
     website: 'https://kevindemo.github.io/cv/'
   }
 }

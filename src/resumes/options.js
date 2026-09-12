@@ -11,8 +11,16 @@ function getVueOptions (name) {
     const opt = {
         name: name,
         data () {
+            const person = yaml.load(PERSON);
+
+            // Templates render knowledge inline as a text blob, so a raw array
+            // would print its brackets and quotes. Join it into a sentence.
+            if (Array.isArray(person.knowledge)) {
+                person.knowledge = person.knowledge.join('. ') + '.';
+            }
+
             return {
-                person: yaml.load(PERSON),
+                person: person,
                 terms: terms,
             };
         },

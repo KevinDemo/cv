@@ -1,25 +1,21 @@
 export const PERSON = {
-  name: 'Kevin Chen',
-  position: 'Senior .NET Engineer | C# · Azure · Microservices',
-  birth: {
-    year: '1988',
-    location: 'New Zealand'
-  },
+  name: 'Kevin (Ning) Chen',
+  position: 'Lead .NET Engineer · C# · Azure · SQL Server',
+  about: 'Lead .NET engineer with 15 years in C# and .NET, most of it on logistics systems that cannot go down. Currently responsible for a SQL Server estate carrying 2M+ transactions a day and an event-driven platform handling 500K+ events daily. Strongest on backend architecture, distributed messaging and database performance. Based in Sydney, NZ citizen with full Australian work rights.',
   experience: [
     {
-      company: 'Urgent Courier Ltd — NZ Top 3 Logistics Provider',
+      company: 'Urgent Courier Ltd, NZ top-3 logistics provider',
       position: 'Lead .NET Engineer',
       timeperiod: '2010 – Present (15 years)',
       description: `
-• Architected event-driven microservices platform on Azure Service Bus processing 500K+ daily logistics events with 99.95% SLA — zero critical incidents in 3 years
-• Migrated monolithic .NET Framework codebase to .NET 8 microservices, cutting cloud infrastructure costs by 35% and release cycles from 3 weeks to 2 days
-• Delivered full-stack solutions using Angular frontend and C# ASP.NET Core MVC backend across multiple business-critical applications
-• Managed AWS-hosted production environments; built and maintained GitLab CI/CD pipelines for automated testing, build and deployment workflows
-• Optimised SQL Server clusters handling 2M+ daily transactions via query tuning, indexing and execution plan analysis — reduced average query time by 40%
-• Delivered 15+ mission-critical modules across Agile squads; led architecture decisions, sprint planning and stakeholder demos
-• Built and maintained Azure DevOps CI/CD pipelines across 8 services, cutting deployment errors by 70% and enabling daily production deployments
-• Established Clean Architecture + DDD standards with SOLID principles; adopted as the team-wide coding standard
-• Mentored 5 junior and mid-level developers through code reviews, pair programming and secure coding workshops
+• Progressed from .NET Developer to Senior Developer to Lead Engineer; now own backend architecture across the platform
+• Tune and operate SQL Server clusters carrying 2M+ transactions a day; indexing strategy, query rewrites and execution plan analysis reduced average query time by 40%
+• Architected an event-driven platform on Azure Service Bus processing 500K+ logistics events daily at 99.95% availability
+• Led migration of a .NET Framework monolith to .NET 8 microservices, cutting release cycles from three weeks to two days
+• Own Azure DevOps CI/CD across 8 services, moving the team from batched releases to daily production deployments
+• Set the team's Clean Architecture, DDD and SOLID standards and the code review bar that enforces them; mentor 5 junior and mid-level engineers
+• Delivered 15+ business-critical modules across dispatch, tracking and billing, using ASP.NET Core, Web API and Angular
+• Lead architecture decisions, sprint planning and stakeholder demos across Agile squads
       `
     }
   ],
@@ -42,40 +38,37 @@ export const PERSON = {
   ],
   skills: [
     {
-      name: 'Backend & Architecture',
-      level: '96',
-      keywords: ['C#', '.NET 6/7/8', 'ASP.NET Core', 'Web API', 'Microservices', 'Clean Architecture', 'DDD', 'SOLID', 'CQRS', 'gRPC']
-    },
-    {
-      name: 'Cloud & Infrastructure',
+      name: 'Data & Performance',
       level: '92',
-      keywords: ['AWS', 'Azure App Services', 'Azure Service Bus', 'Azure SQL', 'Azure Functions', 'AKS', 'Azure DevOps']
+      keywords: ['SQL Server', 'T-SQL', 'Query Tuning', 'Indexing', 'Execution Plans', 'EF Core', 'Redis']
     },
     {
-      name: 'Data & Messaging',
-      level: '90',
-      keywords: ['SQL Server', 'T-SQL', 'Query Tuning', 'EF Core', 'Redis', 'Azure Service Bus', 'Event-Driven Architecture']
+      name: 'Backend & Architecture',
+      level: '92',
+      keywords: ['C#', '.NET 8', 'ASP.NET Core', 'Web API', 'Microservices', 'Clean Architecture', 'DDD', 'SOLID']
     },
     {
-      name: 'DevOps & Tooling',
+      name: 'Azure & Messaging',
       level: '85',
-      keywords: ['Docker', 'Kubernetes', 'GitLab CI/CD', 'Azure DevOps', 'GitHub Actions', 'Terraform', 'Octopus Deploy']
+      keywords: ['Azure Service Bus', 'App Services', 'Azure SQL', 'Azure Functions', 'Event-Driven Architecture']
+    },
+    {
+      name: 'DevOps & Delivery',
+      level: '80',
+      keywords: ['Azure DevOps', 'CI/CD Pipelines', 'Docker', 'Git', 'Agile/Scrum']
     },
     {
       name: 'Frontend',
-      level: '80',
-      keywords: ['Angular 14+', 'TypeScript', 'ASP.NET Core MVC', 'React (basics)', 'Bootstrap 5', 'NGRX', 'Swagger/OpenAPI']
+      level: '70',
+      keywords: ['Angular', 'TypeScript', 'ASP.NET Core MVC', 'REST', 'Swagger/OpenAPI']
     }
   ],
-  languages: [
-    {
-      language: 'English',
-      level: '90'
-    },
-    {
-      language: 'Mandarin Chinese',
-      level: '95'
-    }
+  knowledge: [
+    'NZ citizen, SCV 444, full Australian work rights, no sponsorship required',
+    'Sydney based, open to hybrid or on-site, four weeks notice',
+    '15 years in high-volume, high-availability transaction and logistics systems',
+    'Technical leadership: architecture ownership, mentoring, stakeholder communication',
+    'Fluent in English and Mandarin Chinese'
   ],
   contact: {
     email: 'chenning.0515@gmail.com',

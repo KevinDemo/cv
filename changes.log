@@ -1,0 +1,34 @@
+2026-10-12 - Replaced profile photo
+
+What changed
+- resume/id.jpg replaced with a new photo (Sydney Harbour, Opera House in background).
+- Source image was 2558x3198 portrait. Cropped to a square around head and shoulders
+  (crop box x=40..1340, y=1380..2680 in source pixels) and resized to 600x600, JPEG quality 90.
+- File size went from ~715 KB (2668x3335) to ~57 KB.
+
+Why this size
+- The photo box in material-dark (#myselfpic / .heading in src/resumes/material-dark.vue)
+  is ~278x277 px with background-size: cover; background-position: center.
+- A square crop means cover does not cut anything off, and 600x600 is ~2x the box size,
+  so it stays sharp on retina screens and in the PDF export.
+
+Scope
+- No code changes. All 16 templates that reference resume/id.jpg now use the new photo.
+- Old photo backed up outside the repo (session scratchpad, id.old.jpg); it is also still
+  in git history.
+
+Verification
+- Dev server rebuilt automatically; checked http://localhost:8080/#/resume/material-dark
+  in the browser and the new photo renders correctly in the header box.
+
+Revision (same day)
+- Re-cropped per feedback: person moved left and down in the frame, with about half of
+  the Opera House showing on the right. New crop box x=300..1800, y=1200..2700
+  (1500x1500 source pixels), still resized to 600x600, JPEG quality 90.
+- Second revision: person moved right so more of the body (left shoulder and arm) is in
+  frame. Crop box x=80..1730, y=1150..2800 (1650x1650 source pixels). The box was widened
+  slightly so the Opera House still shows just under half. Output still 600x600, quality 90.
+
+Follow-up
+- PDFs in docs/ are NOT regenerated. Run `npm run export` to update them before deploying
+  to GitHub Pages.

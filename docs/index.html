@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kevin (Ning) Chen - CV</title>
+  <meta name="description" content="CV of Kevin (Ning) Chen, Lead .NET Engineer in Sydney. C#, .NET, SQL Server at scale, AWS.">
+  <meta property="og:title" content="Kevin (Ning) Chen - CV">
+  <meta property="og:description" content="Lead .NET Engineer, Sydney. C#, .NET, SQL Server at scale, AWS.">
+  <style>
+    :root { --bg: #fafaf7; --fg: #1d1d1b; --muted: #5d5d58; --line: #dcdcd4; --accent: #1f5f8b; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #151514; --fg: #ececE6; --muted: #a5a59d; --line: #33332f; --accent: #7fb6dd; } }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    body { display: flex; flex-direction: column; }
+    header { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; align-items: center; justify-content: space-between; padding: 1rem clamp(1rem, 4vw, 2.5rem); border-bottom: 1px solid var(--line); }
+    h1 { margin: 0; font-size: 1.15rem; }
+    h1 span { color: var(--muted); font-weight: 400; }
+    nav { display: flex; flex-wrap: wrap; gap: .6rem; }
+    a.btn { display: inline-block; padding: .45rem .9rem; border: 1px solid var(--accent); border-radius: 6px; color: var(--accent); text-decoration: none; font-weight: 600; font-size: .95rem; }
+    a.btn.primary { background: var(--accent); color: var(--bg); }
+    main { flex: 1; display: flex; }
+    object { flex: 1; width: 100%; min-height: 80vh; border: 0; }
+    .fallback { padding: 2rem clamp(1rem, 4vw, 2.5rem); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kevin (Ning) Chen <span>Lead .NET Engineer, Sydney</span></h1>
+    <nav>
+      <a class="btn primary" href="Kevin-Chen-CV.pdf" download>Download PDF</a>
+      <a class="btn" href="Kevin-Chen-CV.pdf" target="_blank" rel="noopener">Open in new tab</a>
+      <a class="btn" href="https://oct28th.com/">Home</a>
+    </nav>
+  </header>
+  <main>
+    <object data="Kevin-Chen-CV.pdf" type="application/pdf" aria-label="CV of Kevin (Ning) Chen">
+      <div class="fallback">
+        <p>Your browser cannot show the PDF here.</p>
+        <p><a class="btn primary" href="Kevin-Chen-CV.pdf">Open the CV (PDF)</a></p>
+      </div>
+    </object>
+  </main>
+</body>
+</html>
